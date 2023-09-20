@@ -147,3 +147,93 @@
    input[type=submit]:hover{
     color: #023576;
    }
+   footer{
+    background-color: var(--azul-dnc);
+    color: white;
+    width: 100%;
+    }
+    footer .linha1{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+      
+    }
+    footer ul{
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      }
+    footer nav{
+      display: flex;
+      align-items: center;
+      height: 330px;
+      flex-direction: column;
+     }
+    footer h5{
+      text-align: center;
+      font-weight: 800;
+      color: white;
+      font-size: 18px;
+      font-family: var(--fonte-padrao);
+      background-color: black;
+      border-radius: 10px;
+      padding: 10px 10px 10px 10px;
+      margin-bottom: 15px;
+
+
+    }
+    footer ul li{
+      text-align: center;
+      color: white;
+      font-size: 18px;
+      font-family: var(--fonte-padrao);
+      margin: 20px 0px 20px 0px;
+    }
+   
+   footer ul li a{
+    color: white;
+    text-decoration: none;
+   }
+   footer .endereço{
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
+    margin: 20px 0px 20px 0px;
+    width: 20%;
+    text-align: center;
+  }
+  footer ul li a:hover{
+    color: var(--cinza-hover);
+  }
+  .linha2{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+   
+  }
+  .linha2 a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
+    color: white;
+    padding: 5px;
+    
+    
+  }
+  .linha2 a:hover{
+    color: var(--cinza-hover);
+  }
+
+ #termo{
+  border-right: 2px solid white;
+  
+ }
+
+  
+   
